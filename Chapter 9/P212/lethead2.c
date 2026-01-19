@@ -16,7 +16,7 @@ int main(void)
     putchar('\n');
     show_n_char(SPACE, 12);
     printf("%s\n", NAME);
-    spaces = (WIDTH - strlen(PLACE)) / 2;
+    spaces = (WIDTH - strlen(ADDRESS)) / 2;
     
     show_n_char(SPACE, spaces);
     printf("%s\n", ADDRESS);
