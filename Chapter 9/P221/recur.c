@@ -14,3 +14,14 @@ void up_and_down(int n)
         up_and_down(n + 1);
     printf("LEVEL %d: n location %p\n", n, &n);
 }
+
+/*
+    printf("Level %d: n location %p\n", n, &n); n=1
+    if (n < 2)
+        up_and_down(n + 1);
+        //printf("Level %d: n location %p\n", n, &n); n=2
+        //if (n < 2)
+        //up_and_down(n + 1);
+        //printf("LEVEL %d: n location %p\n", n, &n); n=2
+    printf("LEVEL %d: n location %p\n", n, &n); n=1
+*/
