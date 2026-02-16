@@ -10,8 +10,9 @@ int menu(void)
     printf("3) Chertworthy Plaza        4) The Stockton\n");
     printf("5) quit\n");
     printf("%s%s\n", STARS, STARS);
-    while ((status = scanf("%d, &code")) != 1 || (code < 1 || code > 5))
+    while ((status = scanf("%d", &code)) != 1 || (code < 1 || code > 5))
     {
+        printf("%d %d", code, status);
         if (status != 1)
             scanf("%*s");
         printf("Enter an integer from 1 to 5, please.\n");
