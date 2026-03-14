@@ -12,7 +12,7 @@ int main(void)
 
     puts("Who is buried in Grant's tomb?");
     s_gets(try, SIZE);
-    while (strcmp(try, ANSWER))
+    while (strcmp(try, ANSWER)) //正确时返回0
     {
         puts("No, that's wrong. Try again.");
         s_gets(try, SIZE);
