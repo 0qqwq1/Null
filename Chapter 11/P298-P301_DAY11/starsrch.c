@@ -7,7 +7,7 @@ int main(void)
     {
         "astronomy", "astounding",
         "astrophysics", "ostracize",
-        "asterism", "astrophobia"
+        "asterism", "astrophobia", 
     };
     int count = 0;
     int i;
